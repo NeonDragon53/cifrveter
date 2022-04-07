@@ -5,6 +5,7 @@
 	height: 1100px;
 	background-image: url(../images/uselie.jpg);
 	background-size: cover;
+	background-position: center center;
 	color: white;
 }
 .Osnov > div{
