@@ -15,6 +15,7 @@ body{
 	height: 800px;
 	background-image: url(../images/uselie.jpg);
 	background-size: cover;
+	background-position: center center;
 	color: white;
 	text-shadow: #000 0 0 10px;
 }
@@ -45,7 +46,7 @@ body{
 	flex-direction: column;
 	justify-content: center;
 	
-	font-size: 25px;
+	font-size: 23px;
 }
 .block img{
 	margin: 5px;
@@ -59,13 +60,13 @@ body{
 .block .img div{
 	display: flex;
 }
-.Nexsus >.img > img{
-	
-	width: 1010px;
+
+.Nexsus >.img >  img{
+	max-width: 1010px;
 }
-.Nexsus >.img > div > img{
-	
-	width: 500px;
+.Nexsus >.img > div >  img {
+
+	max-width: 500px;
 }
 .Tower >.img > img{
 	width: 450px;
@@ -84,7 +85,7 @@ body{
 
 }
 .Tower .text{
-	font-size: 23px;
+	font-size: 20px;
 }
 .Forest >.img > img{
 	width: 450px;
@@ -106,7 +107,7 @@ body{
 	font-size: 20px;
 }
 .Lines .text{
-	font-size: 17px;
+	font-size: 18px;
 }
 .Lines h4{
 	margin-block-start: 0px;
@@ -126,9 +127,12 @@ body{
 	align-items: center;
 }
 .Champions .img{
+	width: 1100px;
+	margin: 0 auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 .Champions a div{
 	background-color: rgb(0, 160, 181);
@@ -140,22 +144,29 @@ body{
 .Champions a > div{
 	display: flex;
 	flex-direction: column;
+	width: 250px;
 }
 .Champions a img{
 	margin: 0px;
+	width: 250px;
+
 }
 .Champions p{
 	text-align: center;
 }
 .Champions .img a{
 	text-decoration: none;
-	text-align: center;
 	color: white;
 	margin: 5px;
 }
 .Champions .img a p{
-	text-align: center;
 	margin: 0px;
 	font-family: Neue;
+	
+}
+@media all and (max-width: 1600px){
+	.block{
+		flex-direction: column;
+	}	
 	
 }
