@@ -55,6 +55,8 @@ body{
 .block .img{
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 
 }
 .block .img div{
