@@ -33,6 +33,13 @@ header .button:hover{
 	display: flex;
 	justify-content: center;
 }
+
+.bottom-menu .button{
+	padding: 5px;
+	margin: 5px;
+	text-decoration: none;
+	color: rgb(0, 160, 181);
+}
 @media all and (max-width: 570px){
 	.bottom-menu{
 		font-size: 20px;
@@ -40,10 +47,4 @@ header .button:hover{
 	.bottom-menu .button img{
 		width: 30px;
 	}
-}
-.bottom-menu .button{
-	padding: 5px;
-	margin: 5px;
-	text-decoration: none;
-	color: rgb(0, 160, 181);
 }
