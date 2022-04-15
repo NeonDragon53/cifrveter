@@ -48,9 +48,13 @@ header .button:hover{
 		width: 30px;
 	}
 }
-@media all and (max-width: 420px){
+@media all and (max-width: 390px){
 	header{
 		font-size: 18px;
+	}
+	header .button{
+		margin: 8px;
+		width: 30%;
 	}
 	.bottom-menu{
 		font-size: 18px;
