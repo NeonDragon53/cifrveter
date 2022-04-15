@@ -53,8 +53,11 @@
 		height: 1350px ;
 	}
 }
-@media all and (max-width: 420px){
+@media all and (max-width: 390px){
 	.Osnov img{
 		height: 200px;
+	}
+	.Osnov .button p{
+		font-size: 30px;
 	}
 }
