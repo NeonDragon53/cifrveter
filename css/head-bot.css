@@ -48,7 +48,7 @@ header .button:hover{
 		width: 30px;
 	}
 }
-@media all and (max-width: 380px){
+@media all and (max-width: 420px){
 	header{
 		font-size: 18px;
 	}
