@@ -48,3 +48,8 @@
 	text-align: center;
 	font-size: 35px;
 }
+@media all and (max-width: 630px){
+	.Osnov{
+		height: 1350px ;
+	}
+}
