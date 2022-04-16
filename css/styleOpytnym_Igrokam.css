@@ -1,0 +1,84 @@
+@font-face{
+	src: url(fonts/Roboto/Roboto-Light.ttf);
+	font-family: Rob;
+}
+body{
+	color: white;
+}
+.Osnov{
+	background-color: rgb(7, 18, 26);
+}
+.intro{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 800px;
+	background-image: url(../images/uselie.jpg);
+	background-size: cover;
+	background-position: center center;
+	color: white;
+	text-shadow: #000 0 0 10px;
+}
+.intro h1{
+	padding: 3px;
+	text-align: center;
+}
+.intro p{
+	text-align: center;
+	font-size: 22px;
+	letter-spacing: 0.08em;
+	padding: 3px;
+	max-width: 660px;
+}
+.mesh-block{
+	background-color: rgb(12,25,75);
+	width: 100%;
+	height: 60px;
+}
+.mesh-block p{
+	text-align: center;
+	font-size: 27px;
+}
+.block{
+	display: flex;
+	justify-content: space-between;
+	
+}
+.block > div{
+	padding: 5px;
+	margin: 10px;
+}
+.text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	font-size: 23px;
+}
+.Osnov .button{
+	background-color: rgb(208, 168, 92);
+	border: 4px groove black;
+	margin: 20px;
+	padding: 10px;
+	border-radius: 50px 10px;
+	transition: 0.5s;
+	font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+	width: 300px;
+}
+.Osnov a{
+	text-decoration: none;
+	color: white;
+}
+.Osnov .button:hover{
+	border-radius: 10px 10px;
+}
+.Osnov .button p{
+	text-align: center;
+	font-size: 35px;
+}
+.yasuo{
+	display: flex;
+	justify-content: center;
+}
+

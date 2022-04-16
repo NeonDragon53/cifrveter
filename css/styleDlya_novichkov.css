@@ -1,0 +1,235 @@
+@font-face{
+	src: url(fonts/Roboto/Roboto-Light.ttf);
+	font-family: Rob;
+}
+body{
+	color: white;
+}
+.Osnov{
+	background-color: rgb(7, 18, 26);
+}
+.intro{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 800px;
+	background-image: url(../images/uselie.jpg);
+	background-size: cover;
+	background-position: center center;
+	color: white;
+	text-shadow: #000 0 0 10px;
+}
+.intro h1{
+	padding: 3px;
+	text-align: center;
+}
+.intro p{
+	text-align: center;
+	font-size: 22px;
+	letter-spacing: 0.08em;
+	padding: 3px;
+	max-width: 660px;
+}
+.mesh-block{
+	background-color: rgb(12,25,75);
+	width: 100%;
+	height: 60px;
+}
+.mesh-block p{
+	text-align: center;
+	font-size: 27px;
+}
+.block{
+	display: flex;
+	justify-content: space-between;
+	
+}
+.block > div{
+	padding: 5px;
+	margin: 10px;
+}
+.text{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	font-size: 23px;
+}
+.block img{
+	margin: 5px;
+}
+
+.block .img{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+
+}
+.block .img div{
+	display: flex;
+}
+.Nexsus >.img >  img{
+	width: 1010px;
+}
+.Nexsus >.img > div >  img {
+	width: 500px;
+}
+.Tower >.img > img{
+	width: 450px;
+	height: 736px;
+}
+.Tower >.img > div > img{
+	
+	width: 550px;
+}
+.Tower .img{
+	flex-direction: row;
+}
+.Tower >.img > div{
+	flex-direction: column;
+
+}
+.Tower .text{
+	font-size: 20px;
+}
+.Forest >.img > img{
+	width: 450px;
+	height: 746px;
+}
+.Forest >.img > div > img{
+	width: 550px;
+}
+.Forest .img{
+	flex-direction: row;
+}
+.Forest >.img > div{
+	flex-direction: column;
+
+}
+.Forest .text{
+	font-size: 20px;
+}
+.Lines img{
+	
+	width: 1010px;
+}
+.Lines .text{
+	font-size: 18px;
+}
+.Lines h4{
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+}
+.Power .text{
+	text-align: center;
+}
+.Skills .text{
+	text-align: center;
+}
+.Skills img{
+	width: 100%;
+	max-width: 542px;
+}
+.Skills .img{
+	display: flex;
+	align-items: center;
+}
+.Champions .img{
+	width: 1040px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.Champions a div{
+	background-color: rgb(0, 160, 181);
+	margin: 0px;
+	padding: 0px;
+	justify-content: center;
+	
+}
+.Champions a > div{
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+}
+.Champions a img{
+	margin: 0px;
+	width: 250px;
+
+}
+.Champions p{
+	text-align: center;
+}
+.Champions .img a{
+	text-decoration: none;
+	color: white;
+	margin: 5px;
+}
+.Champions .img a p{
+	margin: 0px;
+	font-family: Neue;
+	
+}
+@media all and (max-width: 1600px){
+	.block{
+		flex-direction: column;
+	}
+}
+@media all and (max-width: 1125px){
+	.Champions .img{
+		width: 520px;
+	}
+	
+}
+@media all and (max-width: 545px){
+	.Champions .img{
+		width: 260px;
+	}
+	
+}
+@media all and (max-width: 1035px){
+	.block .img div {
+	    flex-direction: column;
+	}
+	.Nexsus >.img >  img{
+		width: 100%;
+		max-width: 1010px;
+	}
+	.Nexsus >.img > div >  img {
+		width: 100%;
+		max-width: 1000px;
+	}
+	.Tower .img{
+		flex-direction: column;
+	}
+	.Tower >.img > img{
+		width: 100%;
+		max-width: 1050px;
+		height: auto;
+		
+	}
+	.Tower >.img > div > img{
+		width: 100%;
+		max-width: 1050px;
+	}
+	.Forest .img{
+		flex-direction: column;
+	}
+	.Forest >.img > img{
+		width: 100%;
+		max-width: 1050px;
+		height: auto;
+	}
+	.Forest >.img > div > img{
+		width: 100%;
+		max-width: 1050px;
+	}
+	.Lines img{
+		width: 100%;
+		max-width: 1010px;
+	}
+}
