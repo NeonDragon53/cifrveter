@@ -49,7 +49,7 @@ header .button:hover{
 		width: 30px;
 	}
 }
-@media all and (max-width: 390px){
+@media all and (max-width: 400px){
 	header{
 		font-size: 18px;
 
